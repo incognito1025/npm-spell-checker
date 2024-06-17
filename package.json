@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "oscheck": "node systemcheck.js",
+    "checkword": "node index.js checkword",
+    "checkwords": "node index.js checkwords",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "simple-spellchecker": "^1.0.0"
+  }
 }
